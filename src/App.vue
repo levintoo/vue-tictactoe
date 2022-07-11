@@ -13,17 +13,17 @@ export default {
 </script>
 
 <template>
+  <h1 class="text-3xl font-bold underline bg-blue">
+    Hello world!
+  </h1>
   <h1>{{ count }}</h1>
-  <button @click="count++">increment</button>
+  <button @click="count++" class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none">increment</button>
+  
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  margin: 0;
+  padding: 0;
 }
 </style>
