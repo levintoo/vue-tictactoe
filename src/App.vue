@@ -52,7 +52,7 @@ const ResetGame = () => {
 					:key="y" 
 					@click="MakeMove(x, y)" 
 					:class="`border border-white w-24 h-24 hover:bg-gray-700 flex items-center justify-center material-icons-outlined text-4xl cursor-pointer ${cell === 'X' ? 'text-pink-500' : 'text-blue-400'}`">
-					{{ cell === 'X' ? 'close' : cell === 'O' ? 'circle' : '' }}
+					{{ cell }}
 				</div>
 			</div>
 		</div>
